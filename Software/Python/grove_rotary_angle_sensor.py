@@ -63,6 +63,7 @@ full_angle = 300
 
 while True:
     try:
+	time.sleep(1)
         # Read sensor value from potentiometer
         sensor_value = grovepi.analogRead(potentiometer)
 
